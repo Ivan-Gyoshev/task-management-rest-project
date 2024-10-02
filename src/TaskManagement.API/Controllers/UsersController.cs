@@ -55,6 +55,9 @@ public class UsersController : ApiControllerBase
     {
         var userInfo = await _usersService.GetUserInfoAsync(id);
 
+        if (userInfo is null)
+            return NotFound();
+
         return Ok(new UserInfoResponse(userInfo.Email, userInfo.Tasks));
     }
 
