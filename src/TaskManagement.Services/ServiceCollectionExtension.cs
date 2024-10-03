@@ -8,6 +8,8 @@ public static class ServiceCollectionExtension
     {
         services.AddTransient<UsersManagementService>();
         services.AddTransient<ProjectsManagementService>();
+        services.AddTransient<TaskManagementService>();
+        services.AddTransient<CommentsManagementService>();
 
         return services;
     }

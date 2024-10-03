@@ -21,6 +21,14 @@ public class Task
     public Project Project { get; set; }
 
     public ICollection<Comment> Comments { get; set; }
+
+    public void Update(string title, string description, Status status, DateTimeOffset? dueDate)
+    {
+        Title = title;
+        Description = description;
+        Status = status;
+        DueDate = dueDate;
+    }
 }
 
 public enum Status
