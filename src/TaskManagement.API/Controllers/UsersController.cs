@@ -1,9 +1,6 @@
-﻿using Azure.Core;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.Infrastructure.Internal;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 using TaskManagement.API.Helpers;
-using TaskManagement.Data;
 using TaskManagement.Services;
 
 namespace TaskManagement.API.Controllers;

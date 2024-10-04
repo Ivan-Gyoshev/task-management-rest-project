@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using TaskManagement.Data;
 using TaskManagement.Services;
-using Swashbuckle.AspNetCore;
 
 namespace TaskManagement.API;
 
