@@ -15,10 +15,6 @@ The controller offers various functionalities related to user management:
 * **Get User Info:** Retrieves information about a specific user.
 * **Delete User:** Deletes an existing user from the system.
 
-### Authentication/Authorization
-
-(Details omitted as per your previous instruction)
-
 ### Error Handling
 
 All API endpoints return appropriate HTTP status codes to indicate success or failure:
@@ -28,15 +24,6 @@ All API endpoints return appropriate HTTP status codes to indicate success or fa
 * **400 BadRequest:** The request was invalid due to missing or malformed data.
 * **404 NotFound:** The requested user information was not found.
 * **500 Internal Server Error:** An unexpected error occurred during processing.
-
-### Data Models
-
-The API utilizes several data models for request and response data:
-
-* **CreateUserRequest:** Defines the expected format for creating a new user.
-* **UpdateUserEmailRequest:** Specifies the user ID and new email address for updating email.
-* **UpdateUserPasswordRequest:** Holds the user ID and new password for password updates.
-* **UserInfoResponse:** Represents the response structure for user information retrieval.
 
 ### Endpoints Details
 
@@ -93,17 +80,6 @@ The API utilizes several data models for request and response data:
 
 ### Endpoints
 
-The controller offers the following functionalities related to projects:
-
-* **Create Project:** Creates a new project.
-* **Update Project:** Modifies an existing project's details.
-* **Get Project Info:** Retrieves information about a specific project.
-* **Delete Project:** Removes a project from the system.
-
-### Authentication/Authorization
-
-(Details omitted as per your previous instruction)
-
 ### Error Handling
 
 All API endpoints return appropriate HTTP status codes to indicate success or failure:
@@ -113,15 +89,6 @@ All API endpoints return appropriate HTTP status codes to indicate success or fa
 * **400 BadRequest:** The request was invalid due to missing or malformed data.
 * **404 NotFound:** The requested project information was not found.
 * **500 Internal Server Error:** An unexpected error occurred during processing.
-
-
-### Data Models
-
-The API utilizes several data models for request and response data:
-
-* **CreateProjectRequest:** Defines the expected format for creating a new project.
-* **UpdateProjectRequest:** Specifies the project ID and updated details.
-* **ProjectInfoResponse:** Represents the response structure for project information retrieval.
 
 ### Endpoints Details
 
@@ -168,17 +135,6 @@ The API utilizes several data models for request and response data:
 
 ### Endpoints
 
-The controller offers the following functionalities related to tasks:
-
-* **Create Task:** Creates a new task for a specific project.
-* **Update Task:** Modifies the details of an existing task.
-* **Get Task Info:** Retrieves information about a specific task.
-* **Delete Task:** Removes a task from the system.
-
-### Authentication/Authorization
-
-(Details omitted as per your previous instruction)
-
 ### Error Handling
 
 All API endpoints return appropriate HTTP status codes to indicate success or failure:
@@ -188,14 +144,6 @@ All API endpoints return appropriate HTTP status codes to indicate success or fa
 * **400 BadRequest:** The request was invalid due to missing or malformed data.
 * **404 NotFound:** The requested task information was not found.
 * **500 Internal Server Error:** An unexpected error occurred during processing.
-
-### Data Models
-
-The API utilizes several data models for request and response data:
-
-* **CreateTaskRequest:** Defines the expected format for creating a new task.
-* **UpdateTaskRequest:** Specifies the task ID and updated details.
-* **TaskInfoResponse:** Represents the response structure for task information retrieval.
 
 ### Endpoints Details
 
