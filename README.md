@@ -1,7 +1,7 @@
 # task-management-rest-project
 A project for Web-server languages discipline in "Paisii Hilendarski" University of Plovdiv
 
-The API is documented via swagger. If you are more comfortable you can use the documentation below:
+The API is documented via swagger at https://localhost:yourport/index.html. If you are more comfortable you can use the documentation below:
 
 ## Users API Documentation
 
